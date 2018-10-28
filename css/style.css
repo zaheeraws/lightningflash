@@ -1,0 +1,248 @@
+/*====================================================
+    DEFAULT VALUES:
+
+    Font Family    : Roboto Condensed
+    
+   	Pomegranate		: #f44336       (Buttons, Icons, Links, Lines & Backgrounds)
+    Danube			: #719dca		(Blue backgrounds)
+    Steel Gray      : #41464b       (Headings)
+    Blue Bayoux     : #64707b       (Paragraphs)
+    White           : #fff          (Text With Black Backgrounds)
+    Black           : #111
+
+======================================================*/
+
+html, body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+p {
+	color: #64707b;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #41464b;
+}
+
+.h-rule {
+	border-bottom: 2px solid #719dca;
+	width: 10%;
+}
+
+.navbar-brand {
+	font-family: 'Pacifico', Montserrat;
+	font-size: 1.7rem;
+	color: #f44336 !important;
+}
+
+/*=================================
+				HOME
+=================================*/
+#home .navbar a {
+	font-family: lato;
+}
+
+#home .nav-item a {
+	padding: 0.7rem;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+#home .bg-home {
+	background-color: #719dca;
+	padding: 10rem 2rem 6rem 2rem;
+}
+
+#home .home-left img {
+	box-shadow: 0px 18px 60px -15px rgba(35, 35, 35, 0.8);
+}
+
+#home .home-right h1 {
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 600;
+	text-shadow: 1px 1px 1px #333;
+}
+
+#home .home-right h5 {
+	text-transform: uppercase;
+	color: #fff;
+	padding: 1rem 0;
+	text-shadow: 1px 1px 1px #555;
+}
+
+#home .home-right p {
+	color: #fff;
+	line-height: 1.9rem;
+	padding-bottom: 1rem;
+	padding: 0 1rem 1rem 1rem;
+}
+
+#home .btn-home {
+	padding: 0.5rem 2.5rem;
+	border-radius: 0;
+	background-color: #f44336;
+	border-color: #f44336;
+}
+
+#home .home-right a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.home-right {
+    margin: auto;
+    width: 100%;  
+}
+
+.home-left {
+    margin: auto;
+    width: 100%;
+}
+
+/*=================================
+				ABOUT
+=================================*/
+#about .content {
+	padding: 2rem 0;
+}
+
+#about .content h2 {
+	text-transform: uppercase;
+	color: #41464b;
+	font-weight: 600;
+	padding-top: 4rem;
+}
+
+#about .about-padding {
+	padding-top: 2.5rem;
+}
+
+#about .content img {
+	border-radius: 50%;
+}
+
+#about .content p {
+	padding: 2rem 1.5rem 0 1.5rem;
+	line-height: 2rem;
+}
+
+#about .social {
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+}
+
+#about .social i {
+	padding: 0 0.7rem;
+}
+
+#about .fa-facebook-f {
+	color: #3B5998;
+}
+
+#about .fa-twitter {
+	color: #1DA1F2;
+}
+
+#about .fa-goodreads-g {
+	color: #553b08;
+}
+/*=================================
+			testimonial
+=================================*/
+#testimonial {
+	padding: 3rem 0;
+	background-color: #E4E5D7;
+}
+
+#testimonial .content h2 {
+	text-transform: uppercase;
+	color: #41464b;
+	font-weight: 600;
+	padding-top: 5rem;
+}
+
+#testimonial .item {
+	padding: 2rem 5rem;
+}
+
+#testimonial .item h4 {
+	padding-top: 2rem;
+	font-style: italic;
+}
+
+#testimonial .item h5 {
+	font-style: italic;
+}
+
+#testimonial .item p {
+	line-height: 2;
+}
+
+#testimonial blockquote::before{
+  	content: "\201C";
+  	font-family: Georgia, serif;
+  	font-size: 80px;
+  	font-weight: bold;
+  	color: #999;
+}
+
+#testimonial .owl-dot span {
+	background-color: #719dca;
+	transition: opacity .2s ease;
+}
+
+#testimonial .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+	background: #f44336;
+}
+
+/*=================================
+			  CONTACT
+=================================*/
+#contact {
+	padding: 2rem 0;
+}
+
+#contact .contact-detail {
+	padding-top: 2rem;
+}
+
+#contact .contact-detail img {
+	padding-bottom: 2rem;
+}
+
+#contact .content h2 {
+	text-transform: uppercase;
+	color: #41464b;
+	font-weight: 600;
+	padding-top: 3rem;
+}
+
+#contact .btn-contact {
+	background-color: #f44336;
+	border-radius: 0;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+#footer {
+	background-color: #232323;
+	text-align: center;
+	padding: 1.9rem 0 0.4rem 0;
+}
+
+#footer p {
+	color: #64707b;
+	font-size: 15px;
+}
+
+#footer a {
+	text-decoration: none;
+	color: #FF5722;
+}

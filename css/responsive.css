@@ -1,0 +1,78 @@
+
+/* Large Devices (Desktops & Laptops) */
+
+@media (min-width: 1200px) {
+    /* OK */
+}
+
+
+/* Medium Devices (Landscape Tablets & Medium Desktops) */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* OK */
+}
+
+
+/* Small Devices (Portrait Tablets & Small Desktops) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+     
+    #testimonial .item {
+      padding: 1rem 1rem;
+    }
+
+    #home .home-left img {
+      width: 110%;
+    }
+
+    #home .home-right {
+      padding-top: 3rem 5rem 0 5rem;
+    }
+
+    #home .home-right h1 {
+      font-size: 2rem;
+    }
+
+    #home .home-right p {
+      line-height: 1.5rem;
+    }
+}
+
+
+/* Extra Small Devices (Landscape Phones & Portrait Tablets) */
+
+@media (max-width: 767px) {
+    #testimonial .item {
+    padding: 1rem 1rem;
+    }
+
+    #home .home-right {
+    padding-top: 3rem;
+    }
+}
+
+
+/* Extra Small Devices (Portrait Phones & Smaller devices) */
+
+@media (max-width: 480px) {
+    #testimonial .item {
+    padding: 1rem 1rem;
+    }
+
+  #home .home-right {
+    padding-top: 3rem;
+  }
+}
+
+
+/* Extra Small Devices (Portrait Phones & Smaller devices) */
+
+@media (max-width: 320px) {
+  #testimonial .item {
+    padding: 1rem 1rem;
+    }
+
+  #home .home-right {
+    padding-top: 3rem;
+  }
+}
