@@ -55,7 +55,7 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
-				<a class="nav-link" href="#home">HOME</a>
+				<a class="nav-link" href="#page-top">HOME</a>
 				</li>
 				<li class="nav-item">
 				<a class="nav-link" href="#about">ABOUT</a>
@@ -95,18 +95,14 @@
 	<section id="about">
 		<div class="container" data-aos="fade-up">
 			<div class="content text-center">
-				<h2>About the Author</h2>
+				<h2>About</h2>
 				<hr class="h-rule">
 				<div class="about-padding"></div>
-				<img src="img/author.jpg" alt="author" width="18%">
-				<p>Faris Rasul Mirza is an undergraduate student
-				<br><br>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<img src="img/head.png" alt="author" width="18%">
+				<p>
+				Was there ever a moment when you wanted to club a book which is all-encompassing and literary in its nature? Well that seek finally draws to a close by the virtue of an EIGHTEEN YEAR OLD, who has come out at this elementary age with a book of 328 pages. With its encyclopedic nature and literary mold,</p>
+				<h3 class="text-center">"Lightning Flashed"</h3>
+				<p class="pt-0">is a book that you should go with your mouths hanging! It's a great boon to readers and a great boost to their learning bugs. Being a teenager, Faris is the greenest neophyte in the realm of both critical thinking and creative writing.</p>
 				<div class="social">
 					<a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a>
 					<a href="https://twitter.com" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
